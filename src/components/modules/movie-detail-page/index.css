@@ -1,0 +1,178 @@
+div {
+  /* border: 1px solid red; */
+}
+.detailPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.movieFullDetail {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.movieImage {
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieImageSize {
+  width: 100%;
+  height: 100%;
+}
+
+.detailBox {
+  padding: 10px;
+  border: 2px solid rgb(212, 210, 210);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movieName {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.infoBoxParents {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  /* gap: 6px 4px; */
+}
+.InfoBox {
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(222, 229, 235);
+}
+
+.infoBoxheadingP {
+  display: flex;
+  justify-content: center;
+}
+
+.infoBoxheading {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.summary {
+  width: 400px;
+  border-radius: 4px;
+  background-color: rgb(222, 229, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+  margin: 6px;
+}
+.boxHeader {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.network {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.networkContent {
+  display: flex;
+}
+
+@media screen and (max-width: 798px) {
+  .movieFullDetail {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+  }
+  .infoBoxParents {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .InfoBox {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .movieFullDetail {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  .infoBoxParents {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .InfoBox {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .movieFullDetail {
+    padding: 6px;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+  }
+  .infoBoxParents {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .summary {
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(222, 229, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    margin: 6px;
+  }
+}

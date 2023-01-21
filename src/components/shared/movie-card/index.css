@@ -1,0 +1,32 @@
+.movieCardRoot {
+  background-color: white;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  color: black;
+  display: flex;
+  padding: 6px;
+  cursor: pointer;
+}
+.cardImage {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+}
+
+.image {
+  border-radius: 4px;
+  width: 100%;
+  width: 100%;
+}
+
+.cardDetail {
+  padding: 4px;
+}
+
+.nameText {
+  font-size: 18px;
+  font-weight: 600;
+}

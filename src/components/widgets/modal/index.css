@@ -1,0 +1,27 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.modalMovieName {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.modalDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+}
+
+#box {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 2px;
+  background-color: rgb(222, 229, 235);
+}

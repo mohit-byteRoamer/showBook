@@ -1,0 +1,11 @@
+.button {
+  background-color: rgb(58, 58, 248);
+  padding: 8px;
+  color: white;
+  border-radius: 6px;
+  margin: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

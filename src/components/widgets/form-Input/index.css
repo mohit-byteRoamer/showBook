@@ -1,0 +1,12 @@
+.inputBox {
+  padding: 6px;
+  margin: 6px 0px 6px 0px;
+  border-radius: 4px;
+  background-color: rgb(222, 229, 235);
+}
+
+.inputLabel {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 500;
+}
